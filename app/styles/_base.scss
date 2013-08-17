@@ -263,6 +263,23 @@ video {
 
 .page-head-general .ident {
     display: inline-block;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.page-head-general .ident a :active{
+	color: #fff;
+	text-decoration: none;
+}
+
+.page-head-general .ident a :hover{
+	color: #000;
+	text-decoration: none;
+}
+
+.page-head-general .logo { 
+	width: 50px;
 }
 
 .page-head {
@@ -453,7 +470,7 @@ video {
     margin-top: 1em;
 }
 
-.content.make ol li .buy_coffee {
+.content.make ol li .buy_coffee , .buy_coffee {
     font-size: 14px;
     font-size: .93333rem;
     line-height: 1.64286;
@@ -473,9 +490,10 @@ video {
     font-weight: 700;
 }
 
-.content.make ol li .buy_coffee:hover {
+.content.make ol li .buy_coffee:hover , .buy_coffee:hover {
     background-color: #43ac74;
     color: #f9f9f9;
+    text-decoration: none;
 }
 
 .content.make ol li .buy_coffee svg {
@@ -858,7 +876,7 @@ video {
 .content .shoplocket-embed{
 	display: block;
 	margin: 0 auto;
-	width: 330px;
+	width: 700px;
 	max-width: 100%;
 }
 

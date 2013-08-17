@@ -79,18 +79,21 @@
 					<li>
 						<div class="detail">
 							<h2>How much is the coffee?</h2>
-							<p>It's &pound;5.00 for 250g of freshly ground coffee (we usually grind it the same day we post it).</p>
+							<p>It's &pound;5.00 for 250g of freshly ground coffee (we usually grind it the same day we post it). Or you can have the beans just as they are.</p>
 							<p>Postage is &pound;2.99 for UK delivery to guarantee your coffee reaches you in the finest condition.</p>
 						</div>
 					</li>
 					<li>
 						<div class="detail">
 							<h2>How can I get some?</h2>
-							<p>You are in the right place. We will send you the finest coffee in a vacuum sealed (for freshness), eco-friendly bag.</p>
+							<p>You are in the right place. We will send you the finest coffee, ground to your choice in a vacuum sealed (for freshness), eco-friendly bag.</p>
 							<p>Simple.</p>
 						</div>
 						
-						<iframe class='shoplocket-embed' src='https://www.shoplocket.com/products/0FYUg/embed?style=modal' width='330' height='500' frameborder='0' scrolling='no'></iframe>
+						<div class='shoplocket-embed'>
+							<iframe src='https://www.shoplocket.com/products/0FYUg/embed?style=modal' width='330' height='500' frameborder='0' scrolling='no'></iframe>
+							<iframe src='https://www.shoplocket.com/products/YdctD/embed?style=modal' width='330' height='500' frameborder='0' scrolling='no'></iframe>
+						</div>
 						<div id="buyCoffee">
 							<p>
 								Click <strong>Buy now</strong> to get your coffee.
@@ -113,15 +116,18 @@
 			</footer>
         </div>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-43196837-1');ga('send','pageview');
-        </script>
+        <script type="text/javascript">
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-43196837-1']);
+		  _gaq.push(['_trackPageview']);
+		
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		
+		</script>
         
 		<script data-main="scripts/main" src="bower_components/requirejs/require.js"></script>
 </body>
