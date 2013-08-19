@@ -268,12 +268,12 @@ video {
     font-size: 20px;
 }
 
-.page-head-general .ident a :active{
+.page-head-general .ident a:active{
 	color: #fff;
 	text-decoration: none;
 }
 
-.page-head-general .ident a :hover{
+.page-head-general .ident a:hover{
 	color: #000;
 	text-decoration: none;
 }
@@ -884,6 +884,17 @@ video {
 	text-align: center;
 }
 
+.page-foot #securePayment{
+	position: absolute;
+	top: -20px;
+	left: 0;
+}
+
+.page-foot #securePayment img{
+	position: static;
+	width: 200px;
+}
+
 .page-foot {
     border-top: 2px solid #f3f3ed;
     width: 100%;
@@ -899,7 +910,7 @@ video {
     color: #f9f9f9;
 }
 
-.page-foot a {
+.page-foot a.button {
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;
@@ -1040,6 +1051,10 @@ h1 span {
 
 .container.processing p {
     font-weight: 700;
+}
+
+a.seo{
+	display: none !important;
 }
 
 body.loading {
